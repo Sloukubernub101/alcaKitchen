@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Architects Daughter', cursive;  
+}
+header {
+    font-family: 'Architects Daughter', cursive; 
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+}
+
+.jumbotron.home {
+    background: url(images/AlcaProduct9.jpeg);
+    height: 70vh;
+    position: relative;
+    color: #fff; 
+    font-family: 'Architects Daughter', cursive; 
+}
+
+/* about us */
+.jumbotron.about {
+    font-family: 'Architects Daughter', cursive; 
+}
+
+/* menu page  */
+.card {
+    display: inline;
+    font-family: 'Architects Daughter', cursive; 
+
+}
+
+/* find us */
+h2,p {
+    font-family: 'Architects Daughter', cursive; 
+
+}
+
+/* footer  */
+footer {
+    font-family: 'Architects Daughter', cursive; 
+}
