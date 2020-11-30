@@ -19,7 +19,7 @@ header {
 
 .jumbotron.home {
     background: url(images/AlcaProduct7.jpeg)no-repeat center center/cover;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     color: #fff; 
     font-family: 'Architects Daughter', cursive; 
