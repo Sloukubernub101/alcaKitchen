@@ -18,8 +18,8 @@ header {
 }
 
 .jumbotron.home {
-    background: url(images/AlcaProduct9.jpeg);
-    height: 70vh;
+    background: url(images/AlcaProduct7.jpeg)no-repeat center center/cover;
+    height: 80vh;
     position: relative;
     color: #fff; 
     font-family: 'Architects Daughter', cursive; 
@@ -27,7 +27,8 @@ header {
 
 /* about us */
 .jumbotron.about {
-    font-family: 'Architects Daughter', cursive; 
+    font-family: 'Architects Daughter', cursive;
+    height: 30vh; 
 }
 
 /* menu page  */
