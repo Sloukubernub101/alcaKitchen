@@ -43,8 +43,17 @@ h2,p {
     font-family: 'Architects Daughter', cursive; 
 
 }
-
+.register-login .jumbotron{
+    height:50vh;
+}
 /* footer  */
 footer {
     font-family: 'Architects Daughter', cursive; 
+}
+
+/* LOGIN SECTION OF ALCA KITCHEN */
+.register-login {
+    position: relative;
+    height:60vh;
+    width: 100vw;
 }

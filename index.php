@@ -147,6 +147,21 @@
         </div>
     </section>
 
+    <section class="register-login">
+        <h2 class="text-center">Register</h2>
+        <div class="jumbotron col-lg-6">
+            <form action="login.php">
+                <div class="row">
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
     <!-- footer for Alca Kitchen -->
     <footer class="page-footer bg-dark">
         <!-- links -->

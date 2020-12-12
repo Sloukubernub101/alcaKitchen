@@ -1,0 +1,10 @@
+.job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.job img {
+    width:100%;
+}
