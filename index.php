@@ -1,3 +1,6 @@
+<?php 
+    include 'header.php';    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,27 +15,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Alca Kitchen</a>
-                <!-- Hamburger menu  for mobile view-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <!-- Menu for desktop view -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#findUs">Find us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login-register.html">Login / Signup</a></li>
-                </ul>
-            </div>
-          </nav>
-    </header>
-
     <!-- home page -->
     <section class="home jumbotron jumbotron-fluid text-center d-flex align-items-center justify-content-center" id="home">
         <div class="container">
@@ -49,54 +31,6 @@
         </div>
         <div class="container text-left d-none d-sm-none d-md-flex d-lg-flex align-items-center justify-content-center">
             <img src="images/logo.jpg" alt="" height="300rem" width="300rem">
-        </div>
-    </section>
-
-    <!-- menu page -->
-    <section class="menu" id="menu">
-        <h2 class="text-center">Menu</h2>
-        <div class="container bg-light d-flex flex-wrap flex-row flex-basis mt-5 mb-5">
-            <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img src="images/AlcaProduct6.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Breakfast</h5>
-                </div>
-            </div>
-    
-            <div class="card col-lg-4 col-md-6 col-sm-12" >
-                <img src="images/AlcaProduct6.jpeg" class="card-img-top" alt="...">
-                <div class="card-body"> 
-                  <h5 class="card-title">Lunch</h5>
-                </div>
-            </div>
-    
-            <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img src="images/AlcaProduct6.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Dinner</h5>
-                </div>
-            </div>
-    
-            <div class="card col-lg-4 col-md-6 col-sm-12">
-                <img src="images/AlcaProduct6.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Drinks</h5>
-                </div>
-            </div>
-    
-            <div class="card col-lg-4 col-md-6 col-sm-12" >
-                <img src="images/AlcaProduct6.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Beverages</h5>
-                </div>
-            </div>
-    
-            <div class="card col-lg-4 col-md-6 col-sm-12" ">
-                <img src="images/AlcaProduct6.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Coffee break</h5>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -120,50 +54,56 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="contactAlvin col-lg-6">
-                <div class="card mb-3 style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4 d-flex align-items-center justify-content-center">
-                            <i class="fa fa-user-circle fa-5x"></i>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Alvin</h5>
-                                <p class="card-text">obcaecati esse incidunt voluptate amet fugit sequi laborum eius facere?</p>
-                                <p class="card-text"><small class="text-muted">+60 1234567789</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->b
         </div>
     </section>
 
-    <section class="findUs" id="findUs">
-        <h2 class="text-center">Find us</h2><p class="text-center"><small class="text-muted">Infront of KEDAI RUNCIT JF , next to KG.GAGANA STREET</small></p>
+    <section class="findUs bg-dark text-white" id="findUs">
+        <h2 class="text-center">Find us</h2><p class="text-center w-100 col-sm-6"><small class="text-muted">Infront of KEDAI RUNCIT JF , next to KG.GAGANA STREET</small></p>
         <div class="embed-responsive embed-responsive-21by9 container d-flex align-items-center justify-content-center flex-column">
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d215.4161971786309!2d116.0887248625802!3d5.916247624540507!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2smy!4v1605960158821!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
-
-    <section class="register-login">
+    <!-- register -->
+    <section class="h-90 w-100 overflow-hidden position-relative register-login bg-dark d-flex align-items-center justify-content-center pt-10" id="register">
+        <div class="mt-5 h-100 w-100 jumbotron col-lg-6 bg-dark text-white">
         <h2 class="text-center">Register</h2>
-        <div class="jumbotron col-lg-6">
-            <form action="login.php">
+            
+            <?php 
+                if(isset($_GET['error'])) {
+                    echo '<div class="alert alert-danger">Please fill in the blanks</div>';
+                }
+            ?>
+            <form action="insert.php" method="post">
                 <div class="row">
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="First name">
+                        <input type="text" name="firstname" class="form-control" placeholder="First name">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name">
+                        <input type="text" name="lastname" class="form-control" placeholder="Last name">
                     </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email" id="userEmail">
+                    </div>
+                    <div class="col">
+                        <input type="password" name="pwd" class="form-control" placeholder="Password" id="userEmail">
+                    </div>
+                </div>
+                <div class="row w-100 m-auto">
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" class="form-control"></textarea>
+                </div>
+                <div class="row d-flex justify-content-end mr-1 mt-2">
+                    <button type="submit" class="btn btn-success" name="submit" value="submit">Sign up</button>
                 </div>
             </form>
         </div>
     </section>
+
     <!-- footer for Alca Kitchen -->
-    <footer class="page-footer bg-dark">
+    <footer class="position-relative page-footer bg-dark">
         <!-- links -->
         <div class="container text-center text-md-left">
             <div class="row">
@@ -172,7 +112,7 @@
                     
                     <ul class="list-unstyled">
                         <li>
-                            <a href="joinUS.html" class="text-white">Join us</a>
+                            <a href="joinUS.php" class="text-white">Join us</a>
                         </li>
                         <li>
                             <a href="#" class="text-white">Membership</a>
