@@ -22,9 +22,6 @@ header {
     max-width: 250px;
     min-height: 100vh;
 }
-}
-    /* background  : darkblue;   */
-}   
 
 .sidebar-title {
     color: #fff;
@@ -34,8 +31,29 @@ header {
     align-items: center;
     justify-content: center;
 }
-ul ,li {
-    position: relative;
-    width: 22vw;
 
+
+#sidebar ul.components{
+    height: 40px;
+    width: 100%;
+    margin: 2px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar ul.components li {
+    background: #2b3138;
+    width: 100%;
+    padding: 8px 0;
+}
+
+#sidebar ul.components li a {
+    margin:0 1.5rem;
+    text-decoration: none;
+}
+
+#sidebar ul.components li ul#editPageSubmenu ,
+#sidebar ul.components li ul#productsSubmenu {
+    margin: 0 20px;
 }

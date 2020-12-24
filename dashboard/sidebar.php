@@ -1,31 +1,31 @@
 <div class="wrapper">
     <!-- Sidebar -->
-    <nav id="sidebar" class="bg-dark">
+    <nav id="sidebar" class="position-fixed bg-dark">
         <div class="">
-            <h3 class="sidebar-title">Bootstrap Sidebar</h3>
+            <h5 class="sidebar-title">Alca Kitchen | Admin</h5>
         </div>
 
         <ul class="list-unstyled components">
-            <p class="text-white">Dummy Heading</p>
             <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="text-white dropdown-toggle">Home</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li><a  class="text-white" href="#">Home 1</a></li>
-                    <li><a  class="text-white" href="#">Home 2</a></li>
-                    <li><a  class="text-white" href="#">Home 3</a></li>
+                <a href="#editPageSubmenu" data-toggle="collapse" aria-expanded="true" class="text-white dropdown-toggle">Edit page</a>
+                <ul class="collapse list-unstyled" id="editPageSubmenu">
+                    <li><a  class="text-white" href="/dashboard/editPage/home.php">Home</a></li>
+                    <li><a  class="text-white" href="#">About</a></li>
+                    <li><a  class="text-white" href="#">Contact</a></li>
+                    <li><a  class="text-white" href="#">Footer</a></li>
                 </ul>
             </li>
-            <li><a  class="text-white" href="#">About</a></li>
+            <li><a  class="text-white" href="#">New admin</a></li>
             <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="text-white dropdown-toggle">Pages</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li><a  class="text-white" href="#">Page 1</a></li>
-                    <li><a  class="text-white" href="#">Page 2</a></li>
-                    <li><a  class="text-white" href="#">Page 3</a></li>
+                <a href="#productsSubmenu" data-toggle="collapse" aria-expanded="true" class="text-white dropdown-toggle">Products</a>
+                <ul class="collapse list-unstyled" id="productsSubmenu">
+                    <li><a  class="text-white" href="#">Add new menu</a></li>
+                    <li><a  class="text-white" href="#">Edit menu</a></li>
                 </ul>
             </li>
-            <li><a class="text-white" href="#">Portfolio</a></li>
+            <li><a class="text-white" href="#">Orders</a></li>
+            <li><a class="text-white" href="#">Customers</a></li>
+            <li><a class="text-white" href="#">Contact Developer</a></li>
         </ul>
     </nav>
-
 </div>
