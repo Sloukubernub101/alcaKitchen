@@ -1,0 +1,23 @@
+/* HOME PAGE */
+header {
+    z-index :2;
+}
+
+.home.jumbotron {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    /* background: url('./IMAGES/AlcaProduct7.jpeg')no-repeat center center/cover; */
+}
+
+.home.jumbotron img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-position: center;
+    object-fit: cover;
+}
+
+.home.jumbotron 

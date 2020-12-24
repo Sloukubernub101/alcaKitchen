@@ -10,7 +10,23 @@ header {
     /* background: url('./images/AlcaProduct7.jpeg')no-repeat center center/cover; */
 }
 /* DASHBOARD.PHP */
+.dashboard {
+    height: 100vh;
+    width: 80vw;
+    position: relative;
+    transform: translateX(20vw);
+    background-color: rgba(38, 50, 56, 0.3);
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    background: url('./images/AlcaProduct7.jpeg')no-repeat center center/cover;
+}
 
+.dashboard .content {
+    height: 90%;
+    width: 90%;
+}
 /* DASHBOARD.PHP ==> SIDEBAR.PHP*/
 .wrapper {
     display: flex;
@@ -18,8 +34,8 @@ header {
     align-items: stretch;
 }
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 20vw;
+    max-width: 20vw;
     min-height: 100vh;
 }
 

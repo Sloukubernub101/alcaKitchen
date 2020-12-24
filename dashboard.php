@@ -10,16 +10,29 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="dashboard/sidebarToggle.js"></script>
     <title>Alca Kitchen | Admin</title>
 </head>
 <body>
     <!-- This sidebar will be used in multiple pages
  -->
-    <?php include './dashboard/sidebar.php'?>
+    <?php 
+        include './dashboard/sidebar.php';
+    ?>
     <!-- end of sidebar -->
 
     <!-- MAIN CONTENT GOES HERE -->
-    
+    <section class="dashboard">
+        <div class="content jumbotron jumbotron-fluid">
+            <div class="card" style="width: 15rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+</div>
+        </div>
+    </section>
     <!-- END OF MAIN CONTENT -->
        
 </body>
