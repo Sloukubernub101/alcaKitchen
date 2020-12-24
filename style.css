@@ -58,7 +58,7 @@ header {
     align-items: center;
 }
 
-#sidebar ul.components li {
+#sidebar ul.components li{
     background: #2b3138;
     width: 100%;
     padding: 8px 0;
@@ -72,4 +72,10 @@ header {
 #sidebar ul.components li ul#editPageSubmenu ,
 #sidebar ul.components li ul#productsSubmenu {
     margin: 0 20px;
+}
+
+.profile {
+    color: #fff;
+    width: 100%;
+    height: 10vh;
 }

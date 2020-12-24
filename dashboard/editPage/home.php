@@ -17,7 +17,7 @@
         <img src="./IMAGES/AlcaProduct7.jpeg" alt="">
         <div class="container">
             <form action="" method="">
-                <input type="text" name="title">
+                <input type="text" name="title" class="title">
             </form>
             <button type="button" class="btn btn-success">Order now</button>
         </div>
