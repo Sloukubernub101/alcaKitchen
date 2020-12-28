@@ -1,4 +1,4 @@
-<div class="menu-container container-fluid">
+<div class="menu-container container-fluid col-12">
     <div class="menu-header container-fluid d-flex align-items-center justify-content-center"><h1>Menu</h1></div>
     <div class="row d-flex flex-row h-100 col-12">
         <div class="col-12 d-lg-flex flex-row">
